@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instruções - Craftcare Store</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 20px;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 15px;
+        padding: 40px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        color: #667eea;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+      }
+      h2 {
+        color: #764ba2;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+      }
+      h3 {
+        color: #555;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      p {
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      ul,
+      ol {
+        margin-left: 30px;
+        margin-bottom: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+      }
+      .success {
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .warning {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        color: #856404;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .info {
+        background: #d1ecf1;
+        border: 1px solid #bee5eb;
+        color: #0c5460;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .code {
+        background: #f4f4f4;
+        border: 1px solid #ddd;
+        padding: 3px 8px;
+        border-radius: 4px;
+        font-family: "Courier New", monospace;
+        font-size: 0.9em;
+      }
+      .button {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        margin: 10px 10px 10px 0;
+        transition: transform 0.3s;
+      }
+      .button:hover {
+        transform: translateY(-3px);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      table th,
+      table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      table th {
+        background: #667eea;
+        color: white;
+      }
+      table tr:nth-child(even) {
+        background: #f9f9f9;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 2px solid #eee;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>✨ Craftcare Store - Atualização Completa</h1>
+      <p style="font-size: 1.2rem; color: #666">
+        Sistema modernizado com cards visuais e modal de seleção
+      </p>
+
+      <div class="success">
+        <strong>✅ Modificações Concluídas!</strong><br />
+        O sistema foi completamente redesenhado com cards visuais, imagens dos
+        perfumes e modal de seleção de tamanho.
+      </div>
+
+      <h2>📋 O que foi alterado?</h2>
+
+      <h3>1. Visual dos Cards</h3>
+      <ul>
+        <li>Cards agora exibem <strong>imagens dos perfumes</strong></li>
+        <li>Design moderno e profissional</li>
+        <li>Preço "A partir de" destacado</li>
+        <li>Botão "Ver Opções" para detalhes</li>
+        <li>Hover effects elegantes</li>
+      </ul>
+
+      <h3>2. Sistema de Modal</h3>
+      <ul>
+        <li>Ao clicar no card, abre um <strong>modal grande</strong></li>
+        <li>Exibe imagem ampliada do perfume</li>
+        <li>Mostra todas as opções de tamanho disponíveis</li>
+        <li>Seleção visual e intuitiva</li>
+        <li>Adiciona direto ao carrinho</li>
+      </ul>
+
+      <h3>3. Estrutura de Imagens</h3>
+      <ul>
+        <li>Pasta <span class="code">/images</span> criada</li>
+        <li>Sistema automático de nomenclatura</li>
+        <li>Fallback para imagem padrão</li>
+        <li>Totalmente responsivo</li>
+      </ul>
+
+      <div class="info">
+        <strong>ℹ️ Próximo Passo Importante:</strong><br />
+        Você precisa adicionar as imagens dos perfumes na pasta
+        <span class="code">images/</span> seguindo o padrão de nomenclatura
+        explicado abaixo.
+      </div>
+
+      <h2>🖼️ Como adicionar as imagens?</h2>
+
+      <h3>Passo 1: Obter as imagens</h3>
+      <ol>
+        <li>Busque no <strong>Google Imagens</strong> pelo nome do perfume</li>
+        <li>Escolha imagens de <strong>alta qualidade</strong></li>
+        <li>
+          Prefira imagens com <strong>fundo branco</strong> ou transparente
+        </li>
+        <li>Salve as imagens</li>
+      </ol>
+
+      <h3>Passo 2: Editar as imagens</h3>
+      <ul>
+        <li><strong>Dimensões recomendadas:</strong> 300x300px ou 400x400px</li>
+        <li><strong>Formato:</strong> JPG</li>
+        <li><strong>Fundo:</strong> Branco ou transparente</li>
+        <li><strong>Peso:</strong> Menor que 200KB</li>
+      </ul>
+
+      <h3>Passo 3: Renomear corretamente</h3>
+      <p>O nome do arquivo deve seguir este padrão:</p>
+
+      <table>
+        <tr>
+          <th>Nome do Perfume</th>
+          <th>Nome do Arquivo</th>
+        </tr>
+        <tr>
+          <td>GOOD GIRL</td>
+          <td><span class="code">good-girl.jpg</span></td>
+        </tr>
+        <tr>
+          <td>212 VIP ROSE</td>
+          <td><span class="code">212-vip-rose.jpg</span></td>
+        </tr>
+        <tr>
+          <td>BACCARAT ROUGE 540</td>
+          <td><span class="code">baccarat-rouge-540.jpg</span></td>
+        </tr>
+        <tr>
+          <td>LA VIE EST BELLE</td>
+          <td><span class="code">la-vie-est-belle.jpg</span></td>
+        </tr>
+        <tr>
+          <td>CREED AVENTUS</td>
+          <td><span class="code">creed-aventus.jpg</span></td>
+        </tr>
+      </table>
+
+      <div class="warning">
+        <strong>⚠️ Regras Importantes:</strong><br />
+        • Tudo em <strong>letras minúsculas</strong><br />
+        • Substituir <strong>espaços por hífens (-)</strong><br />
+        • Remover <strong>caracteres especiais</strong> (*, ', ", etc)<br />
+        • Extensão <strong>.jpg</strong> no final
+      </div>
+
+      <h3>Passo 4: Salvar na pasta correta</h3>
+      <ol>
+        <li>
+          Abra a pasta do projeto: <span class="code">craftcarestore/</span>
+        </li>
+        <li>Entre na pasta <span class="code">images/</span></li>
+        <li>Cole todas as imagens renomeadas</li>
+        <li>
+          Crie uma imagem <span class="code">default.jpg</span> para usar como
+          padrão
+        </li>
+      </ol>
+
+      <h2>🚀 Como testar?</h2>
+      <ol>
+        <li>
+          Abra o arquivo <span class="code">index.html</span> no navegador
+        </li>
+        <li>Clique em um card de perfume</li>
+        <li>Verifique se o modal abre corretamente</li>
+        <li>Selecione um tamanho</li>
+        <li>Adicione ao carrinho</li>
+      </ol>
+
+      <h2>💡 Ferramentas Úteis</h2>
+      <ul>
+        <li><strong>Remove.bg:</strong> Remover fundo de imagens</li>
+        <li><strong>TinyPNG:</strong> Comprimir imagens</li>
+        <li><strong>Canva:</strong> Editar e criar imagens online</li>
+        <li><strong>GIMP:</strong> Editor de imagens gratuito</li>
+      </ul>
+
+      <h2>📁 Arquivos Criados</h2>
+      <ul>
+        <li><span class="code">images/</span> - Pasta para imagens</li>
+        <li>
+          <span class="code">images/README.md</span> - Instruções detalhadas
+        </li>
+        <li>
+          <span class="code">images/NOMES-ARQUIVOS.txt</span> - Lista de
+          exemplos
+        </li>
+        <li>
+          <span class="code">gerar-lista-imagens.js</span> - Script auxiliar
+        </li>
+        <li><span class="code">ALTERACOES.md</span> - Documentação completa</li>
+        <li><span class="code">INSTRUCOES.html</span> - Este arquivo</li>
+      </ul>
+
+      <h2>🔗 Acesso Rápido</h2>
+      <a href="index.html" class="button">🏪 Abrir Loja</a>
+      <a href="ALTERACOES.md" class="button">📝 Ver Alterações</a>
+      <a href="images/" class="button">📁 Pasta de Imagens</a>
+
+      <div class="info" style="margin-top: 40px">
+        <strong>💬 Dúvidas ou Problemas?</strong><br />
+        Verifique os arquivos de documentação na pasta do projeto ou abra o
+        console do navegador (F12) para ver mensagens de erro.
+      </div>
+
+      <div class="footer">
+        <p>✨ Sistema atualizado com sucesso!</p>
+        <p>Craftcare Store © 2024 - Desenvolvido com ❤️</p>
+      </div>
+    </div>
+  </body>
+</html>

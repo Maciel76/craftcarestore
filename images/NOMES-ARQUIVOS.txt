@@ -1,0 +1,78 @@
+# Lista de Nomes de Arquivos de Imagens Necessários
+
+## Perfumes Femininos (exemplos):
+- 212-vip-rose.jpg
+- 212-vip-rose-love-ny.jpg
+- 212-vip.jpg
+- 212-nyc.jpg
+- 212-sexy.jpg
+- acqua-di-gioia.jpg
+- alien.jpg
+- angel-elixir.jpg
+- angel.jpg
+- ange-ou-demon.jpg
+- ani-nishane.jpg
+- babycat.jpg
+- baccarat-rouge-540.jpg
+- bizance-rochas.jpg
+- chanel-5.jpg
+- chance-eau-tendre.jpg
+- ch.jpg
+- cheirosa-62-sol-de-janeiro.jpg
+- chloe.jpg
+- classique.jpg
+- coco-mademoiselle.jpg
+- delina.jpg
+- delina-exclusive.jpg
+- devotion.jpg
+- good-girl.jpg
+- good-girl-blush.jpg
+- jadore.jpg
+- la-vie-est-belle.jpg
+- lady-million.jpg
+- libre.jpg
+
+## Perfumes Masculinos (exemplos):
+- 212-men.jpg
+- 212-heroes.jpg
+- 212-sexys-men.jpg
+- 212-vip-men.jpg
+- 212-vip-black.jpg
+- a-men.jpg
+- acqua-di-gio-profondo.jpg
+- acqua-di-gio-absolut.jpg
+- acqua-di-gio-parfum.jpg
+- acqua-di-gio-elixir.jpg
+- bad-boy-premium.jpg
+- bleu-cha.jpg
+- boss-bottled.jpg
+- creed-aventus.jpg
+- creed-irish.jpg
+- dior-homme-intense.jpg
+- eros-versacce.jpg
+- invictus.jpg
+- invictus-parfum.jpg
+- invictus-victory.jpg
+- one-million.jpg
+- sauvage.jpg
+
+## Body Splash (exemplos):
+- body-splash-1.jpg
+- body-splash-2.jpg
+
+## IMPORTANTE:
+- Todos os nomes devem estar em LETRAS MINÚSCULAS
+- Espaços devem ser substituídos por HÍFENS (-)
+- Caracteres especiais devem ser REMOVIDOS
+- Extensão: .jpg
+
+## Como gerar o nome correto:
+1. Pegue o nome do perfume (ex: "GOOD GIRL BLUSH")
+2. Converta para minúsculas (ex: "good girl blush")
+3. Substitua espaços por hífens (ex: "good-girl-blush")
+4. Remova caracteres especiais (*, ', ", etc)
+5. Adicione .jpg no final (ex: "good-girl-blush.jpg")
+
+## Script para gerar todos os nomes:
+Se você quiser um script completo com TODOS os 234 perfumes, 
+posso gerar uma lista completa para você!
